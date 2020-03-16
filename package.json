@@ -1,0 +1,16 @@
+{
+  "name": "postmark-smtp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon -w index.js index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "postmark": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
